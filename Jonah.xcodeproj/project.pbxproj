@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CBDC27018F3D0D900F9D2FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBDC26F18F3D0D900F9D2FF /* Foundation.framework */; };
+		8CBDC27218F3D0D900F9D2FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBDC27118F3D0D900F9D2FF /* CoreGraphics.framework */; };
+		8CBDC27418F3D0D900F9D2FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBDC27318F3D0D900F9D2FF /* UIKit.framework */; };
+		8CBDC27A18F3D0D900F9D2FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CBDC27818F3D0D900F9D2FF /* InfoPlist.strings */; };
+		8CBDC27C18F3D0D900F9D2FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDC27B18F3D0D900F9D2FF /* main.m */; };
+		8CBDC28018F3D0D900F9D2FF /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDC27F18F3D0D900F9D2FF /* JSAppDelegate.m */; };
+		8CBDC28218F3D0D900F9D2FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBDC28118F3D0D900F9D2FF /* Images.xcassets */; };
+		8CBDC28918F3D0DA00F9D2FF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBDC28818F3D0DA00F9D2FF /* XCTest.framework */; };
+		8CBDC28A18F3D0DA00F9D2FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBDC26F18F3D0D900F9D2FF /* Foundation.framework */; };
+		8CBDC28B18F3D0DA00F9D2FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBDC27318F3D0D900F9D2FF /* UIKit.framework */; };
+		8CBDC29318F3D0DA00F9D2FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CBDC29118F3D0DA00F9D2FF /* InfoPlist.strings */; };
+		8CBDC29518F3D0DA00F9D2FF /* JonahTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDC29418F3D0DA00F9D2FF /* JonahTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CBDC28C18F3D0DA00F9D2FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBDC26418F3D0D900F9D2FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CBDC26B18F3D0D900F9D2FF;
+			remoteInfo = Jonah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CBDC26C18F3D0D900F9D2FF /* Jonah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jonah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBDC26F18F3D0D900F9D2FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CBDC27118F3D0D900F9D2FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CBDC27318F3D0D900F9D2FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CBDC27718F3D0D900F9D2FF /* Jonah-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jonah-Info.plist"; sourceTree = "<group>"; };
+		8CBDC27918F3D0D900F9D2FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CBDC27B18F3D0D900F9D2FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CBDC27D18F3D0D900F9D2FF /* Jonah-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jonah-Prefix.pch"; sourceTree = "<group>"; };
+		8CBDC27E18F3D0D900F9D2FF /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		8CBDC27F18F3D0D900F9D2FF /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		8CBDC28118F3D0D900F9D2FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CBDC28718F3D0DA00F9D2FF /* JonahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JonahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBDC28818F3D0DA00F9D2FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8CBDC29018F3D0DA00F9D2FF /* JonahTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JonahTests-Info.plist"; sourceTree = "<group>"; };
+		8CBDC29218F3D0DA00F9D2FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CBDC29418F3D0DA00F9D2FF /* JonahTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JonahTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CBDC26918F3D0D900F9D2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBDC27218F3D0D900F9D2FF /* CoreGraphics.framework in Frameworks */,
+				8CBDC27418F3D0D900F9D2FF /* UIKit.framework in Frameworks */,
+				8CBDC27018F3D0D900F9D2FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBDC28418F3D0DA00F9D2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBDC28918F3D0DA00F9D2FF /* XCTest.framework in Frameworks */,
+				8CBDC28B18F3D0DA00F9D2FF /* UIKit.framework in Frameworks */,
+				8CBDC28A18F3D0DA00F9D2FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CBDC26318F3D0D900F9D2FF = {
+			isa = PBXGroup;
+			children = (
+				8CBDC27518F3D0D900F9D2FF /* Jonah */,
+				8CBDC28E18F3D0DA00F9D2FF /* JonahTests */,
+				8CBDC26E18F3D0D900F9D2FF /* Frameworks */,
+				8CBDC26D18F3D0D900F9D2FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CBDC26D18F3D0D900F9D2FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CBDC26C18F3D0D900F9D2FF /* Jonah.app */,
+				8CBDC28718F3D0DA00F9D2FF /* JonahTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CBDC26E18F3D0D900F9D2FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CBDC26F18F3D0D900F9D2FF /* Foundation.framework */,
+				8CBDC27118F3D0D900F9D2FF /* CoreGraphics.framework */,
+				8CBDC27318F3D0D900F9D2FF /* UIKit.framework */,
+				8CBDC28818F3D0DA00F9D2FF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CBDC27518F3D0D900F9D2FF /* Jonah */ = {
+			isa = PBXGroup;
+			children = (
+				8CBDC27E18F3D0D900F9D2FF /* JSAppDelegate.h */,
+				8CBDC27F18F3D0D900F9D2FF /* JSAppDelegate.m */,
+				8CBDC28118F3D0D900F9D2FF /* Images.xcassets */,
+				8CBDC27618F3D0D900F9D2FF /* Supporting Files */,
+			);
+			path = Jonah;
+			sourceTree = "<group>";
+		};
+		8CBDC27618F3D0D900F9D2FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CBDC27718F3D0D900F9D2FF /* Jonah-Info.plist */,
+				8CBDC27818F3D0D900F9D2FF /* InfoPlist.strings */,
+				8CBDC27B18F3D0D900F9D2FF /* main.m */,
+				8CBDC27D18F3D0D900F9D2FF /* Jonah-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CBDC28E18F3D0DA00F9D2FF /* JonahTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CBDC29418F3D0DA00F9D2FF /* JonahTests.m */,
+				8CBDC28F18F3D0DA00F9D2FF /* Supporting Files */,
+			);
+			path = JonahTests;
+			sourceTree = "<group>";
+		};
+		8CBDC28F18F3D0DA00F9D2FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CBDC29018F3D0DA00F9D2FF /* JonahTests-Info.plist */,
+				8CBDC29118F3D0DA00F9D2FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CBDC26B18F3D0D900F9D2FF /* Jonah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBDC29818F3D0DA00F9D2FF /* Build configuration list for PBXNativeTarget "Jonah" */;
+			buildPhases = (
+				8CBDC26818F3D0D900F9D2FF /* Sources */,
+				8CBDC26918F3D0D900F9D2FF /* Frameworks */,
+				8CBDC26A18F3D0D900F9D2FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jonah;
+			productName = Jonah;
+			productReference = 8CBDC26C18F3D0D900F9D2FF /* Jonah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CBDC28618F3D0DA00F9D2FF /* JonahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBDC29B18F3D0DA00F9D2FF /* Build configuration list for PBXNativeTarget "JonahTests" */;
+			buildPhases = (
+				8CBDC28318F3D0DA00F9D2FF /* Sources */,
+				8CBDC28418F3D0DA00F9D2FF /* Frameworks */,
+				8CBDC28518F3D0DA00F9D2FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CBDC28D18F3D0DA00F9D2FF /* PBXTargetDependency */,
+			);
+			name = JonahTests;
+			productName = JonahTests;
+			productReference = 8CBDC28718F3D0DA00F9D2FF /* JonahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CBDC26418F3D0D900F9D2FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jonah Siegle";
+				TargetAttributes = {
+					8CBDC28618F3D0DA00F9D2FF = {
+						TestTargetID = 8CBDC26B18F3D0D900F9D2FF;
+					};
+				};
+			};
+			buildConfigurationList = 8CBDC26718F3D0D900F9D2FF /* Build configuration list for PBXProject "Jonah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CBDC26318F3D0D900F9D2FF;
+			productRefGroup = 8CBDC26D18F3D0D900F9D2FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CBDC26B18F3D0D900F9D2FF /* Jonah */,
+				8CBDC28618F3D0DA00F9D2FF /* JonahTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CBDC26A18F3D0D900F9D2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBDC27A18F3D0D900F9D2FF /* InfoPlist.strings in Resources */,
+				8CBDC28218F3D0D900F9D2FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBDC28518F3D0DA00F9D2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBDC29318F3D0DA00F9D2FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CBDC26818F3D0D900F9D2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBDC27C18F3D0D900F9D2FF /* main.m in Sources */,
+				8CBDC28018F3D0D900F9D2FF /* JSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBDC28318F3D0DA00F9D2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBDC29518F3D0DA00F9D2FF /* JonahTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CBDC28D18F3D0DA00F9D2FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CBDC26B18F3D0D900F9D2FF /* Jonah */;
+			targetProxy = 8CBDC28C18F3D0DA00F9D2FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CBDC27818F3D0D900F9D2FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBDC27918F3D0D900F9D2FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CBDC29118F3D0DA00F9D2FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBDC29218F3D0DA00F9D2FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CBDC29618F3D0DA00F9D2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CBDC29718F3D0DA00F9D2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CBDC29918F3D0DA00F9D2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jonah/Jonah-Prefix.pch";
+				INFOPLIST_FILE = "Jonah/Jonah-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CBDC29A18F3D0DA00F9D2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jonah/Jonah-Prefix.pch";
+				INFOPLIST_FILE = "Jonah/Jonah-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8CBDC29C18F3D0DA00F9D2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jonah.app/Jonah";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jonah/Jonah-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JonahTests/JonahTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8CBDC29D18F3D0DA00F9D2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jonah.app/Jonah";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jonah/Jonah-Prefix.pch";
+				INFOPLIST_FILE = "JonahTests/JonahTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CBDC26718F3D0D900F9D2FF /* Build configuration list for PBXProject "Jonah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBDC29618F3D0DA00F9D2FF /* Debug */,
+				8CBDC29718F3D0DA00F9D2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBDC29818F3D0DA00F9D2FF /* Build configuration list for PBXNativeTarget "Jonah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBDC29918F3D0DA00F9D2FF /* Debug */,
+				8CBDC29A18F3D0DA00F9D2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CBDC29B18F3D0DA00F9D2FF /* Build configuration list for PBXNativeTarget "JonahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBDC29C18F3D0DA00F9D2FF /* Debug */,
+				8CBDC29D18F3D0DA00F9D2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CBDC26418F3D0D900F9D2FF /* Project object */;
+}
