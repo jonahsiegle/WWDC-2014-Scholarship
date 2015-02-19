@@ -16,6 +16,18 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    
+    
+    //Add root UIViewController to the key UIWindow
+    JSMainViewController *baseViewController = [[JSMainViewController alloc]init];
+    
+    //Create root navigationController
+    UINavigationController *parentNavControl = [[UINavigationController alloc]initWithRootViewController:baseViewController];
+    [self.window setRootViewController:parentNavControl];
+
+    
     return YES;
 }
 
